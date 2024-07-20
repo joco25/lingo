@@ -9,14 +9,14 @@ const QuestionBubble = ({ question }: Props) => {
   return (
     <div className='flex item-center gap-x-5 mb-6'>
       <Image
-        src='/images/mascot.svg'
+        src='/mascot.svg'
         className='hidden lg:block'
         alt='Mascot'
         width={60}
         height={60}
       />
       <Image
-        src='/images/mascot.svg'
+        src='/mascot.svg'
         className='block lg:hidden '
         alt='Mascot'
         width={40}

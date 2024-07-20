@@ -23,7 +23,7 @@ const UserProgress = ({
       <Link href='/courses'>
         <Button variant='ghost'>
           <Image
-            src={`/images/${imageSrc}`}
+            src={`/${imageSrc}`}
             alt={title}
             width={32}
             height={32}
@@ -34,7 +34,7 @@ const UserProgress = ({
       <Link href='/shop'>
         <Button variant='ghost' className='text-orange-500'>
           <Image
-            src='/images/points.svg'
+            src='/points.svg'
             height={28}
             width={28}
             alt='Points'
@@ -46,7 +46,7 @@ const UserProgress = ({
       <Link href='/shop'>
         <Button variant='ghost' className='text-rose-500'>
           <Image
-            src='/images/heart.svg'
+            src='/heart.svg'
             height={28}
             width={28}
             alt='Hearts'

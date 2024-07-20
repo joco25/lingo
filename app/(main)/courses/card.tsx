@@ -28,7 +28,7 @@ const Card = ({ title, id, imageSrc, onClick, disabled, active }: Props) => {
         )}
       </div>
       <Image
-        src={`/images/${imageSrc}`}
+        src={imageSrc}
         alt={title}
         width={93.33}
         height={70}
