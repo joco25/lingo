@@ -23,7 +23,7 @@ const UserProgress = ({
       <Link href='/courses'>
         <Button variant='ghost'>
           <Image
-            src={`/${imageSrc}`}
+            src={`${imageSrc}`}
             alt={title}
             width={32}
             height={32}
